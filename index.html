@@ -1,146 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		    <meta charset="UTF-8">
-		        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-			    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-			        <title>Docker Explanation</title>
-				    <style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manusa Kiran Reddy Konireddy - Profile</title>
+    <style>
         body {
-		            font-family: Arial, sans-serif;
-			                line-height: 1.6;
-					            margin: 0;
-						                padding: 0;
-								            background-color: #f4f4f9;
-									                color: #333;
-											        }
-	        header {
-			            background-color: #333;
-				                color: #fff;
-						            padding: 20px 0;
-							                text-align: center;
-									        }
-		        header h1 {
-				            margin: 0;
-					            }
-			        .container {
-					            max-width: 1200px;
-						                margin: 20px auto;
-								            padding: 0 20px;
-									            }
-				        h2 {
-						            color: #4CAF50;
-							            }
-					        .content {
-							            background-color: #fff;
-								                padding: 20px;
-										            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-											                margin-bottom: 20px;
-													            border-radius: 8px;
-														            }
-						        .content ul {
-								            list-style-type: square;
-									                margin-left: 20px;
-											        }
-							        .content ul li {
-									            margin-bottom: 10px;
-										            }
-								        .highlight {
-										            background-color: #fffbdd;
-											                padding: 5px;
-													            border-radius: 5px;
-														            }
-									        .code {
-											            background-color: #2e2e2e;
-												                color: #f4f4f4;
-														            padding: 10px;
-															                border-radius: 5px;
-																	            font-family: Consolas, monospace;
-																		                word-wrap: break-word;
-																				            white-space: pre-wrap;
-																					            }
-										        footer {
-												            background-color: #333;
-													                color: #fff;
-															            text-align: center;
-																                padding: 10px 0;
-																		            margin-top: 30px;
-																			            }
-											    </style>
-	</head>
-	<body>
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 70%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #4CAF50;
+            font-size: 1.6em;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section li {
+            margin: 5px 0;
+        }
+        .section .label {
+            font-weight: bold;
+            color: #333;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills .skill {
+            background-color: #e2e2e2;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Profile: Manusa Kiran Reddy Konireddy</h1>
 
-		<header>
-			    <h1>Introduction to Docker</h1>
-		</header>
+        <div class="section">
+            <h2>Personal Information</h2>
+            <ul>
+                <li><span class="label">Name:</span> Manusa Kiran Reddy Konireddy</li>
+            </ul>
+        </div>
 
-		<div class="container">
-			    <section class="content">
-				            <h2>What is Docker?</h2>
-					            <p>Docker is an open-source platform that automates the deployment, scaling, and management of applications. It uses containerization to package applications and their dependencies into a portable container, making it easy to deploy and run them consistently across different environments.</p>
-						        </section>
+        <div class="section">
+            <h2>Programming Languages</h2>
+            <ul>
+                <li><span class="label">Languages:</span> Python, SQL</li>
+            </ul>
+        </div>
 
-							    <section class="content">
-								            <h2>Why Use Docker?</h2>
-									            <ul>
-											                <li><strong>Portability:</strong> Containers can run on any system that supports Docker, regardless of the underlying hardware or operating system.</li>
-													            <li><strong>Consistency:</strong> Docker containers encapsulate the application and its dependencies, ensuring it behaves the same way in every environment.</li>
-														                <li><strong>Efficiency:</strong> Docker containers are lightweight and can run on the same host without the overhead of virtual machines.</li>
-																            <li><strong>Scalability:</strong> Docker makes it easy to scale applications by running multiple instances of containers across various systems.</li>
-																	            </ul>
-																		        </section>
+        <div class="section">
+            <h2>Tools & Technologies</h2>
+            <div class="skills">
+                <div class="skill">Git</div>
+                <div class="skill">Linux</div>
+                <div class="skill">Jenkins</div>
+                <div class="skill">Nexus</div>
+                <div class="skill">Ansible</div>
+                <div class="skill">AWS</div>
+                <div class="skill">Azure</div>
+            </div>
+        </div>
 
-																			    <section class="content">
-																				            <h2>Key Docker Concepts</h2>
-																					            <ul>
-																							                <li><strong>Images:</strong> A Docker image is a lightweight, standalone, executable package that includes everything needed to run a piece of software, including the code, runtime, libraries, and dependencies.</li>
-																									            <li><strong>Containers:</strong> A Docker container is a runtime instance of a Docker image. It runs the application and its dependencies in an isolated environment.</li>
-																										                <li><strong>Dockerfile:</strong> A text file containing a series of instructions on how to build a Docker image.</li>
-																												            <li><strong>Docker Hub:</strong> Docker Hub is a cloud-based registry that allows users to share and distribute Docker images.</li>
-																													            </ul>
-																														        </section>
-
-																															    <section class="content">
-																																            <h2>Basic Docker Commands</h2>
-																																	            <p>Here are some of the most common Docker commands:</p>
-																																		            <div class="code">
-																																				                docker --version <br>
-																																						            docker pull <image-name> <br>
-																																								                docker build -t <image-name> . <br>
-																																											            docker run -d <image-name>
-																																													            </div>
-																																														        </section>
-
-																																															    <section class="content">
-																																																            <h2>Example Dockerfile</h2>
-																																																	            <p>The following is an example of a simple Dockerfile that creates a Docker image for a Node.js application:</p>
-																																																		            <div class="code">
-																																																				                <span class="highlight"># Use Node.js official image</span><br>
-																																																						            FROM node:14-alpine <br><br>
-
-																																																							                <span class="highlight"># Set working directory</span><br>
-																																																									            WORKDIR /app <br><br>
-
-																																																										                <span class="highlight"># Copy package.json and install dependencies</span><br>
-																																																												            COPY package.json .<br>
-																																																													                RUN npm install <br><br>
-
-																																																															            <span class="highlight"># Copy the rest of the application</span><br>
-																																																																                COPY . .<br><br>
-
-																																																																		            <span class="highlight"># Expose port 3000</span><br>
-																																																																			                EXPOSE 3000 <br><br>
-
-																																																																					            <span class="highlight"># Run the application</span><br>
-																																																																						                CMD ["npm", "start"]
-																																																																								        </div>
-																																																																									    </section>
-		</div>
-
-		<footer>
-			    <p>&copy; 2024 Docker Introduction. All rights reserved.</p>
-		</footer>
-
-	</body>
+    </div>
+</body>
 </html>
-
